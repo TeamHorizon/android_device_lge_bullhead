@@ -1,0 +1,14 @@
+[
+ {
+   "remote": "th",
+   "repository": "android_kernel_lge_bullhead",
+   "target_path": "kernel/lge/bullhead",
+   "revision": "cm-13.0"
+ },
+ { 
+ 	"remote": "th",
+    "repository": "proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "revision": "mm"
+  }
+]
