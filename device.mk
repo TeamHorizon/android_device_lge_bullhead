@@ -376,6 +376,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.tnr.preview=0 \
     persist.camera.tnr.video=0
 
+#Electronic Image Stabilization
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.eis.enable=1
+
 # Incoming number (b/23529711)
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.redir_party_num=0
