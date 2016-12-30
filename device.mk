@@ -307,6 +307,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vidc.debug.perf.mode=2 \
     vidc.enc.dcvs.extra-buff-count=2
 
+#EIS
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.eis.enable=1
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hwui.texture_cache_size=56 \
     ro.hwui.layer_cache_size=32 \
