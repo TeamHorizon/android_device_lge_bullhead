@@ -17,6 +17,7 @@
 #BootAnimation Config
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
+
 # Sample: This is where we'd set a backup provider if we had one
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
@@ -53,5 +54,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=bullhead \
     BUILD_FINGERPRINT="google/bullhead/bullhead:7.1.1/N4F26I/3532671:user/release-keys" \
-    PRIVATE_BUILD_DESC="bullhead-user 7.1.1 N4F26I 3532671 release-keys" \
-    ro.xenonhd.maintainer="Sidharth Soni XDA,Telegram,etc-  (Sid_Sun) Git- (Sid-Sun)"
+    PRIVATE_BUILD_DESC="bullhead-user 7.1.1 N4F26I 3532671 release-keys" 
