@@ -51,6 +51,9 @@ PRODUCT_PACKAGES += \
     Camera2 \
     Snap
 
+#Maintainer Info
+PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer=Sid
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=bullhead \
     BUILD_FINGERPRINT="google/bullhead/bullhead:7.1.1/N4F26I/3532671:user/release-keys" \
