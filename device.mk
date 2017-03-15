@@ -144,6 +144,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/init.bullhead.sh:system/bin/init.bullhead.sh
 
+#EIS{Electroic Image Stabilisation}
+PRODUCT_COPY_FILES += \
+    persist.camera.eis.enable=1
+
 # Qseecomd configuration file
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/init.bullhead.qseecomd.sh:system/bin/init.bullhead.qseecomd.sh
