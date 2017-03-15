@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "PureNexusProject/android_kernel_<name>",
+    "target_path": "kernel/path",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "branch": "n-bullhead"
+  }
+]
