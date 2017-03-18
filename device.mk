@@ -145,7 +145,7 @@ PRODUCT_COPY_FILES += \
     device/lge/bullhead/init.bullhead.sh:system/bin/init.bullhead.sh
 
 #EIS{Electroic Image Stabilisation}
-PRODUCT_COPY_FILES += \
+PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.eis.enable=1
 
 # Qseecomd configuration file
