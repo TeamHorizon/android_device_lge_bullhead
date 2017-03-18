@@ -1,11 +1,11 @@
 [
   {
-    "repository": "PureNexusProject/android_kernel_<name>",
-    "target_path": "kernel/path",
+    "repository": "TeamHorizon/android_kernel_lge_bullhead",
+    "target_path": "kernel/lge/bullhead",
     "branch": "n"
   },
   {
-    "repository": "TeamHorizon/proprietary_vendor_lge",
+    "repository": "TeamHorizon/vendor_lge",
     "target_path": "vendor/lge",
     "branch": "n-bullhead"
   }
