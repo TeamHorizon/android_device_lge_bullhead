@@ -17,7 +17,13 @@ TARGET_MANUFACTURER := LGE
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 #Don't ship SuperSU
-WITH_SUPERSU := false
+#WITH_SUPERSU := false
+
+#ROOT METHOD
+#Magisk
+ROOT_METHOD=magisk
+#SU
+#ROOT_METHOD=su
 
 #Ship snap cam && cam 2
 PRODUCT_PACKAGES += \
