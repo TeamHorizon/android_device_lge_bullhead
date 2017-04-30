@@ -30,6 +30,12 @@ PRODUCT_PACKAGES += \
     Camera2 \
     Snap
 
+#Additional Product Packages (3rd party)
+PRODUCT_PACKAGES += \
+    Adaway \
+    KernelAdiutor \
+    MiXplorer \
+
 #Maintainer Info
 PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer=Sid
 
